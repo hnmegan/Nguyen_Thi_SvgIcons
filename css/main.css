@@ -2,15 +2,13 @@ body
 {
 	
 	font-family: Cochin;
-	width: 1440px;
 	text-align: center;
 	background-image: url(../images/Marble.jpg);
 
 }
 main
 {
-	width: 1440px;
-	margin: 0 auto;
+
 	text-align: center;
 
 }
@@ -18,7 +16,6 @@ a,li
 {
 	text-decoration: none;
 	list-style-type: none;
-	color: #c09174;
 }
 p
 {
