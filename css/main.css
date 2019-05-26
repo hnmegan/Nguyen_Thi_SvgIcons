@@ -1,0 +1,207 @@
+body
+{
+	
+	font-family: Cochin;
+	width: 1440px;
+	text-align: center;
+	background-image: url(../images/Marble.jpg);
+
+}
+main
+{
+	width: 1440px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+a,li
+{
+	text-decoration: none;
+	list-style-type: none;
+	color: #c09174;
+}
+p
+{
+	text-align: justify;
+	line-height: 29px;
+}
+
+.hidden
+{
+	display: none;
+}
+
+li a:hover
+{
+	font-size: 25px;
+}
+/*HEADER*/
+.mainHeader 
+{
+  display: flex;
+  justify-content: space-between;
+}
+#logo
+{
+	width: 60%;
+	margin: 10px 20px;
+}
+nav
+{
+	display: flex;
+	align-items: flex-end;
+}
+.mainHeader nav ul li
+{
+	display: inline;
+	padding: 60px;
+
+}
+/*BANNER*/
+#Banner
+{
+	text-align: center;
+	position: relative;
+
+}
+
+.bannerImg
+{
+	position: relative;
+}
+
+
+
+#Break
+{
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+
+}
+
+#Break h3
+{
+	font-size: 40px;
+	text-align: center;
+	color: #c09174;
+
+}
+
+.floralPng
+
+{
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+}
+
+.bannerImg
+{
+	align-items: center;
+	justify-content: center;
+}
+
+/*--GALLERY--*/
+.Gallery
+{
+	width: 1440px;
+
+}
+
+.Gallery img
+{
+	margin-top: 30px;
+}
+
+#row1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	align-self: center;
+	/*--width: 1440px;--*/
+}
+
+.column
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.fullImg
+{
+	width: 100%;
+}
+.package
+{
+	display: flex;
+}
+
+
+.Text
+{
+	padding: 40px;
+}
+
+.Text p
+{
+	color: white;
+}
+
+.Text h2
+{
+	color: white;
+}
+
+
+/*Footer*/
+footer
+{
+	display: flex;
+	align-items: center;
+
+}
+
+footer nav
+{
+	align-items: center;
+}
+
+footer nav ul li
+{
+	display: inline;
+	padding: 50px;
+}
+
+
+.bottomLogo img
+{
+	width: 130px;
+	
+	margin: 60px 100px;
+}
+}
+
+.social
+{
+	display: flex;
+	align-items: flex-end;
+}
+.social ul li
+{
+	display: inline;
+	padding: 60px;
+}
+.social img
+{
+	height: 30px;
+}
+
+.social img:hover
+{
+	height: 40px;
+}
