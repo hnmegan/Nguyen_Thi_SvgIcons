@@ -23,7 +23,7 @@ p
 {
 	text-align: justify;
 	font-style: italic;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .hidden
@@ -42,7 +42,10 @@ p
 }
 #logo
 {
-	width: 75%;
+	width: 70%;
+	display: flex;
+	align-items: center;
+	margin-top: 100px;
 }
 nav
 {
@@ -52,7 +55,6 @@ nav
 .mainHeader nav ul li
 {
 	display: inline;
-	padding: 60px;
 
 }
 /*BANNER*/
@@ -72,7 +74,7 @@ nav
 
 #Break
 {
-	height: 250px;
+	height: 200px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -82,10 +84,10 @@ nav
 
 #Break h3
 {
-	font-size: 30px;
+	font-size: 20px;
 	text-align: center;
 	color: #c09174;
-	margin-top: 80px;
+	margin-top: 10px;
 
 }
 
@@ -93,8 +95,9 @@ button
 {
 	font-family: Cochin;
 	font-size: 14px;
-	background: black;
-	color: white;
+	background: #c09174;
+	color: Black;
+	height: 30px;
 
 }
 
@@ -102,16 +105,17 @@ button
 /*--GALLERY--*/
 .Gallery
 {
-   	height: 60%;
-   	margin-top: 80px;
-   	margin-bottom: 80px;
+   	padding-right: 400px;
+   	padding-left: 400px;
 }
 
 
 
 .Gallery img
 {
-	margin-top: 40px;
+	width: 8%;
+	margin-top: 10px;
+
 }
 
 #icons
@@ -123,28 +127,9 @@ button
 	align-self: center;
 }
 
-.Text
-{
-	padding: 40px;
-}
 
 
-/*Footer*/
 
-.social
-{
-	margin-top: 100px;
-}
-
-.social ul li
-{
-	display: inline;
-	padding: 60px;
-}
-.social img
-{
-	height: 30px;
-}
 
 
 .selected { 
